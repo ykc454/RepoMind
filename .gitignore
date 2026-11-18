@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+npm-debug.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot
+target/
+.gradle/
+build/
+*.class
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
